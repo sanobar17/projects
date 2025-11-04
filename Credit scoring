@@ -1,14 +1,1 @@
-# Kredit Skoring Modeli
 
-## Maqsad
-Qarz oluvchilarning defolt ehtimolini bashorat qilish va muhim omillarni aniqlash.
-
-## Bosqichlar
-1. Ma’lumotlarni tozalash (`data_cleaning.py`)
-2. Model qurish va baholash (`model_training.py`)
-3. SHAP orqali omillar tahlili (`feature_analysis.py`)
-
-## Ishga tushirish
-```bash
-pip install -r requirements.txt
-python src/model_training.py
