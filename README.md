@@ -1,71 +1,71 @@
 # projects
-Creating a new credit scoring model using machine learning involves several key phases, each consisting of multiple tasks and deliverables. Here’s a full, detailed roadmap you can follow:
+Creating a new credit scoring model using machine learning involves several key phases:
 
 ---
 
-## **Credit Scoring Model Roadmap (ML-based)**
+## Credit Scoring Model Roadmap (ML-based)
 
-### **1. Problem Definition & Stakeholder Alignment**
-- Define business objectives (e.g., default prediction, risk assessment, approval automation)
+1. Problem Definition & Stakeholder Alignment
+- Define business objectives (default prediction, risk assessment, approval automation)
 - Understand regulatory constraints (local/global financial laws, fairness)
 - Identify stakeholders: product, risk officers, compliance, IT
 
-### **2. Data Collection & Data Engineering**
-- Gather historical credit application records (loan data, demographic info)
+2. Data Collection & Data Engineering
+- Gather historical credit application records (loan data)
 - Source additional relevant data (transaction history, payment behavior, external sources)
 - Data security & compliance validation
 - Perform data cleaning: handle missing values, outliers, and errors
 - Data normalization/standardization
 
-### **3. Feature Engineering**
-- Select initial set of features (e.g., income, employment, age, credit history)
+3. Feature Engineerig
+- Select initial set of features (income, employment, age, credit history)
 - Derive new features: ratios, rolling averages, categorical encodings
 - Feature selection & reduction: correlation checks, PCA, mutual information
 - Address bias and fairness in feature design
 
-### **4. Exploratory Data Analysis (EDA)**
+4. Exploratory Data Analysis (EDA)
 - Visualize distributions of features and target variable
 - Analyze class imbalance (defaults vs non-defaults)
 - Detect data leakage or spurious relationships
 - Segment analysis: by product, geography, customer type
 
-### **5. Model Design & Training**
+5. Model Design & Training
 - Choose ML algorithms (Logistic Regression, Decision Trees, Random Forest, XGBoost, Neural Networks, etc.)
 - Implement baseline models
 - Cross-validation strategies (k-fold, stratified split, time series split)
 - Hyperparameter tuning (Grid Search, Random Search, Bayesian optimization)
 - Model management: Tracking experiments, using version control
 
-### **6. Model Evaluation**
+6. Model Evaluation
 - Evaluate model using metrics: AUC-ROC, Precision-Recall, F1 score, KS statistic, Brier score
 - Analyze fairness and bias (Disparate impact, Equal opportunity)
 - Reject inference techniques for unapproved applicants
 - Calibration: scorecard scaling to probability of default
 
-### **7. Model Interpretation**
+7. Model Interpretation
 - Feature importance analysis
 - Use explainable AI methods (SHAP, LIME, model coefficients)
 - Prepare regulatory/compliance documentation
 - Stakeholder presentations
 
-### **8. Productionization**
+8. Productionization
 - Model deployment planning (batch, real-time, API endpoint)
 - Integration with existing credit decision systems
 - Automated and manual review loops
 - Monitoring pipeline for model drift and data quality
 
-### **9. Post-Deployment Monitoring & Maintenance**
+9. Post-Deployment Monitoring & Maintenance
 - Performance monitoring: drift detection, periodic re-training
 - Feedback loops: monitor approvals, defaults, operational impact
 - Regular fairness and compliance audits
 - Continuous improvement: collect new data, run challenger models
-
-### **10. Documentation & Compliance**
+  
+10. Documentation & Compliance
 - Detailed documentation of data, modeling, and evaluation steps
 - Audit trails for all model updates
 - Compliance reports for regulatory bodies
 
-### **11. Change Management**
+11. Change Management
 - Stakeholder training
 - Rollout and communication plans
 - User feedback integration
